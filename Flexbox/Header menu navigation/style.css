@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 2em;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 600;
+}
+
+button {
+    padding: 0.6em;
+    border-radius: 3px;
+    border: none;
+    background-color: #3b18ec;
+    color: white;
+}
